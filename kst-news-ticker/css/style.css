@@ -1,0 +1,40 @@
+
+
+.webnewsticker {
+  box-shadow: 0 1px 10px -5px #333;
+  margin: 0;
+  padding: 0;
+}
+.head_line_text {
+  display: block;
+  float: left;
+  position:relative;
+}
+.head_line_text::after {
+  content: "";
+  height: 18px;
+  position: absolute;
+  right: -12px;
+  top: 10px;
+  transform: rotate(45deg);
+  width: 18px;
+}
+
+
+ul#webTicker{margin:0;padding:0; list-style: square url("../img/bullet.png");}
+
+ul#webTicker li{float:right;}
+ul#webTicker li a{text-decoration:none;font-size:14px;display:block;margin-right:20px;padding:10px;color:#2490d5;box-shadow: 0 0 0 0;}
+ul#webTicker li a:hover{color:#266290;}
+ul#webTicker li a:hover{}
+.head_line_text h2 {
+  border-right: 3px solid #fff;
+  float: left;
+  font-size: 26px;
+  text-align: center;
+  background: #3B94CF none repeat scroll 0 0;
+  color: #fff;
+  margin: 0;
+  padding: 0px 10px;
+  font-weight: 500;
+}
